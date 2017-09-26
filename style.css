@@ -1,0 +1,87 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bulk {
+  border-left: 2px solid white;
+  color: gray;
+}
+
+.bulk h2 {
+  color: rgb(74, 202, 168);
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+hr {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+
+}
+
+header img {
+  border-top: 2px solid white;
+  height: 283px;
+}
+
+aside {
+  align-items: center;
+  background-color: rgb(74, 202, 168);
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+aside img {
+  border: 5px solid rgb(182, 233, 220);
+  border-radius: 100px;
+  height: 200px;
+  margin: 20px auto;
+  width: 200px;
+}
+
+aside h1 {
+  font-size: 2.5em;
+  margin: 0 10px;
+}
+
+aside li {
+  margin: 10px 0;
+}
+
+aside p {
+  color: rgb(182, 233, 220);
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+li:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: rgb(74, 202, 168);
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5em;
+}
+
+i {
+  color: rgb(182, 233, 220);
+  margin: 130px 20px 20px 20px;
+}
